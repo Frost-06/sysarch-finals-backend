@@ -15,7 +15,7 @@ import GetData from '../views/GetData.vue'
 import Public from '../views/Public.vue'
 import AdminLogin from '../views/AdminLogin.vue'
 import Registration from '../views/Registration.vue'
-
+import ProfileUser from '../views/ProfileUser.vue'
 
 Vue.use(VueRouter)
 
@@ -96,6 +96,12 @@ const routes = [
     path: '/registration',
     name: 'Registration.vue',
     component: Registration
+  },
+
+  {
+    path: '/profile',
+    name: 'ProfileUser.vue',
+    component: ProfileUser
   },
   
 ]

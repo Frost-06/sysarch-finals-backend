@@ -20,7 +20,7 @@
             <label>Password</label>
             <input type="text" placeholder="6+ Characters, 1 Capital Letter"/>
           </div>
-          <button type="button" id="login" style="background-color:#1AA3E9;
+           <router-link to = "/profile"><button type="button" id="login" style="background-color:#1AA3E9;
                                                   border-radius: 54px;
                                                   font-weight: 600;
                                                   font-size: 16px;
@@ -32,7 +32,7 @@
                                                   outline-style: none;
                                                   margin-right: 1.6em;
                                                   margin-top: 3em;
-">Login</button>   
+">Login</button> </router-link>
         </form>
          <router-link to = "/admin-login"><a href="#" style="margin-left: -15px; margin-top: 25px; color: #1AA3E9">Login as administrator</a></router-link>
     </div>

@@ -138,6 +138,7 @@ export default {
   margin-left: -10.5em;
   margin-bottom: 1em;
 }
+
 .first-group {
     display: inline-flex;
 }
