@@ -36,7 +36,7 @@
                     <label>Email Name</label>
                     </div>
                     <div>
-                        <input type="text" class="email-input" placeholder="Ex: Andre"/>
+                        <input type="email" class="email-input" placeholder="Ex: Andre"/>
                     </div>
                 </div>
                 <div class="group-4">
@@ -44,7 +44,7 @@
                     <label>Username</label>
                     </div>
                     <div>
-                        <input type="text" placeholder="Ex: Guinita"/>
+                        <input type="text" placeholder="RidersBuddy06"/>
                     </div>
                 </div>
                 <div class="group-5">
@@ -52,7 +52,7 @@
                     <label>Password</label>
                     </div>
                     <div>
-                        <input type="text" placeholder="Ex: Guinita"/>
+                        <input type="password" placeholder="Ex: 6+ Characters, 1 Capital Letter"/>
                     </div>
                 </div>
             </div>
